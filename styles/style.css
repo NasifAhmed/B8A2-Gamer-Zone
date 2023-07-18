@@ -68,7 +68,7 @@ section {
 
 .btn {
     border-radius: 48px;
-    padding: 0.6em 1.5em;
+    padding: 0.8em 1.5em;
     background-color: var(--clr-pink);
     color: white;
     font-size: 1.25rem;
@@ -139,6 +139,55 @@ nav {
             Main
 
 */
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../assets/Group\ 14.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.intro__content {
+    margin: auto 0;
+}
+
+.intro__content h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.intro__content h1 {
+    margin-bottom: 2rem;
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro__content ul {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.intro__content ul li {
+    margin-bottom: 1rem;
+}
+
+.intro__content button {
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.intro__banner img {
+    height: 100%;
+}
+
 
 /* 
 
