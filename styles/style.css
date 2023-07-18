@@ -190,7 +190,6 @@ nav {
 
 .intro__banner {
     height: 100%;
-    margin: auto;
 }
 
 /* Games section  */
@@ -412,6 +411,7 @@ nav {
     .intro__banner {
         height: unset;
         width: 80%;
+        margin: auto;
     }
 
     /* Games section  */
