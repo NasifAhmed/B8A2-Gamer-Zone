@@ -33,6 +33,13 @@ button {
 }
 
 main,
+header,
+footer {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+main,
 header {
     border: 2px solid red;
 }
@@ -49,6 +56,12 @@ footer {
     border: 2px solid red;
 }
 
+div,
+section {
+    border: 2px solid red;
+}
+
+
 .btn {
     border-radius: 48px;
     padding: 0.6em 1.5em;
@@ -59,7 +72,58 @@ footer {
     text-transform: uppercase;
 }
 
+/* 
+
+            Header
+
 */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.nav__logo {
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav__logo h2 {
+    margin-left: 1rem;
+    color: var(--clr-primary-main);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav__logo__pinktext {
+    color: var(--clr-pink);
+}
+
+.nav__list {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav__list ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem
+}
+
+.nav__item__specialbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2rem;
+}
+
 /* 
 
             Main
