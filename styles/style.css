@@ -143,13 +143,13 @@ nav {
 .intro {
     display: flex;
     justify-content: space-around;
-    background-image: url("../assets/Group\ 14.png");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: auto;
+    margin-bottom: 2rem;
 }
 
 .intro__content {
+    /* background-image: url("../assets/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
     margin: auto 0;
 }
 
@@ -184,8 +184,9 @@ nav {
     margin-right: 1rem;
 }
 
-.intro__banner img {
+.intro__banner {
     height: 100%;
+    margin: auto;
 }
 
 
@@ -211,6 +212,10 @@ nav {
         padding-right: 4rem;
     }
 
+    .btn {
+        font-size: 1rem;
+    }
+
     /* 
 
             Header
@@ -232,6 +237,51 @@ nav {
     .nav__list {
         font-size: 0.8rem;
     }
+
+    /* 
+
+            Main
+
+*/
+
+    .intro {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        gap: 4rem;
+    }
+
+    .intro__content {
+        margin: auto;
+    }
+
+    .intro__content h2 {
+        font-size: 2rem;
+    }
+
+    .intro__content h1 {
+        margin-bottom: 1.5rem;
+        font-size: 4.5rem;
+    }
+
+    .intro__content ul {
+        font-size: 0.8rem;
+    }
+
+    .intro__content ul li {
+        margin-bottom: 0.8rem;
+    }
+
+    .intro__content button {
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .intro__banner {
+        height: unset;
+        width: 80%;
+    }
+
+
 }
 
 @media screen and (max-width: 425px) {
@@ -241,6 +291,10 @@ nav {
     footer {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
     }
 
     /* 
@@ -268,5 +322,41 @@ nav {
     .nav__list ul {
         flex-direction: column;
         gap: 1rem
+    }
+
+    /* 
+
+            Main
+
+*/
+
+    .intro {
+        gap: 3rem;
+    }
+
+    .intro__content {
+        margin: auto;
+    }
+
+    .intro__content h2 {
+        font-size: 1.8rem;
+    }
+
+    .intro__content h1 {
+        margin-bottom: 1.2rem;
+        font-size: 3.8rem;
+    }
+
+    .intro__content ul {
+        font-size: 0.6rem;
+    }
+
+    .intro__content ul li {
+        margin-bottom: 0.6rem;
+    }
+
+    .intro__content button {
+        margin-top: 0.8rem;
+        margin-right: 0.8rem;
     }
 }
