@@ -273,6 +273,55 @@ nav {
     /* 150% */
 }
 
+/* Showcase Section */
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.showcase__content {
+    text-align: right;
+}
+
+.showcase__content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+
+.showcase__content__specialtext {
+    color: var(--clr-pink);
+}
+
+.showcase__content p {
+    max-width: 30ch;
+    color: var(--clr-secondary-main);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-top: 1rem;
+}
+
+.showcase__banner {
+    position: relative;
+}
+
+.showcase__banner img {
+    width: 100%;
+}
+
+.showcase__banner__subimage img {
+    width: 100%;
+}
+
+.showcase__banner__subimage {
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    right: 70%;
+}
 
 /* 
 
