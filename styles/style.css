@@ -128,8 +128,10 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 2rem;
+    gap: 1em;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 1em 0rem 1em 1em;
 }
 
 /* 
