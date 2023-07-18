@@ -214,12 +214,50 @@ nav {
 .games__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
     gap: 1rem;
 }
 
-.games__item img {
+.games__item__image {
+    position: relative;
+    background-color: black;
+    border-radius: 18px;
+}
+
+.games__item__image img {
+    display: block;
     width: 100%;
-    margin-bottom: 1rem;
+}
+
+.games__item__overlay {
+    color: var(--clr-pink);
+    background-color: black;
+    border-radius: 18px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.games__item__overlay__icon {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.games__item__image:hover {
+    border: 2px solid var(--clr-pink);
+}
+
+.games__item__overlay:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .games__item p {
