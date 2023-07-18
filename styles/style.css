@@ -56,6 +56,11 @@ main {
     color: var(--clr-primary-main);
 }
 
+main section {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
 footer {
     border: 2px solid red;
 }
@@ -143,7 +148,6 @@ nav {
 .intro {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2rem;
 }
 
 .intro__content {
