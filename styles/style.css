@@ -6,6 +6,10 @@
 
 :root {
     --primary-color: black;
+    --clr-primary-header: #3C354F;
+    --clr-primary-main: #0B0223;
+    --clr-secondary-main: #534C64;
+    --clr-pink: #FF42A5;
 }
 
 * {
