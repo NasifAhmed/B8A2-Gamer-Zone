@@ -15,6 +15,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 li {
@@ -40,11 +41,6 @@ footer {
     border: 2px solid red;
 }
 
-/* 
-
-            Header
-
-*/
 
 /* 
 
