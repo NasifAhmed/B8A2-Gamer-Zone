@@ -372,7 +372,7 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    border-radius: 15px;
+    border-radius: 50px;
     width: 100%;
     border: 3px solid rgba(255, 255, 255, 0);
 }
@@ -634,7 +634,6 @@ nav {
     .category__item {
         font-size: 0.8rem;
         gap: 0.3rem;
-        border-radius: 15px;
         width: 100%;
     }
 
