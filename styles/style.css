@@ -43,11 +43,6 @@ footer {
     padding-right: 15rem;
 }
 
-main,
-header {
-    border: 2px solid red;
-}
-
 header {
     color: var(--clr-primary-header);
 }
@@ -62,16 +57,9 @@ main section {
 }
 
 footer {
-    border: 2px solid red;
     background-color: var(--clr-primary-main);
     color: white;
 }
-
-div,
-section {
-    border: 2px solid red;
-}
-
 
 .btn {
     border-radius: 48px;
